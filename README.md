@@ -62,8 +62,8 @@ The company has two minor conditions for investments:
  27  pub_rec_bankruptcies        
  28  tax_liens 
 
-# EDA
-After cleaning the data,I started with EDA. These are some of the outcomes of EDA 
+# Observations
+After cleaning the data,I started with EDA. These are some of the outcomes of EDA and the important results 
 
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Amount_raised_across_four_categories.png "Amount_raised_across_four_categories")
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Top_three_countries_for_investment.png "Top_three_countries_for_investment")
