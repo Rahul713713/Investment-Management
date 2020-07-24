@@ -18,7 +18,7 @@ The company has two minor conditions for investments:
 2. Also,it only wants to invest in English-speaking countries i.e. countries where English is an official language.This is because of the ease of communication with the companies it would invest in. 
 
 
-# Code and Resources Used
+# Resources Used
 - Python Version: 3.6.0
 - Packages: pandas, numpy, matplotlib, seaborn
 
