@@ -45,8 +45,9 @@ After cleaning the data,I started with EDA. These are some of the outcomes of ED
 
 # Results
 
-- The company should make a venture investment between 5 to 15 miilion USD.
-- Thus, the top country in terms of the number of investments (and the total amount invested) is USA. 
+- The company should make a venture type investment.
+- The top country in terms of the number of investments (and the total amount invested) is USA. 
+- The top three countries for investemnt are USA,Great Britain and India.
 - The sectors 'Others', 'Social, Finance, Analytics and Advertising' and 'Cleantech/Semiconductors' are the most heavily invested ones.
 
 In case we don't want to consider 'Others' as a sector, 'News, Search and Messaging' is the next best sector
