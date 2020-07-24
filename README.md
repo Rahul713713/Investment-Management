@@ -65,8 +65,8 @@ The company has two minor conditions for investments:
 # EDA
 After cleaning the data,I started with EDA. These are some of the outcomes of EDA 
 
-![loan_status vs term](https://github.com/Rahul713713/Loan-Analysis/blob/master/term.png "loan_status vs term")
-![loan_status vs term](https://github.com/Rahul713713/Loan-Analysis/blob/master/purpose.png "loan_status vs purpose")
-![loan_status vs term](https://github.com/Rahul713713/Loan-Analysis/blob/master/verification_status.png "loan_status vs verification_status")
-![loan_status vs term](https://github.com/Rahul713713/Loan-Analysis/blob/master/int_rate.png "loan_status vs int_rate")
+![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Amount_raised_across_four_categories.png "Amount_raised_across_four_categories")
+![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Top_three_countries_for_investment.png "Top_three_countries_for_investment")
+![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Amount_invested.png "Amount_invested")
+
 
