@@ -1,10 +1,9 @@
 # Investment-Management : Project Overview
 
-- Created multiple charts,graphs,boxplots,etc. in order to understand how to minimise the risk of losing money while lending to customers.
-- Worked on a dataset consisting of 39717 rows of data for 111 different features.
-- Performed univariate analysis as well as multivariate analysis on various features to understand the importance of every feature.
-- Used EDA to understand how consumer attributes and loan attributes influence the tendency of default rate.Thus,helped the company in understanding the driving factors (or
-driver variables) behind loan default, i.e. the variables which are strong indicators of default.
+- Created multiple charts,graphs,boxplots,etc. in order to understand the data and where the company shuould invest in order to avoid risks.
+- Worked with 3 different datasets by merging them together.
+- Cleaned the data in each datset and checked for missing values so that they can be merged together.
+- Performed data analysis on the different datasets keeping in mind the two constraints provided by the compnay.
 
 # Problem Statement
 
@@ -24,43 +23,18 @@ The company has two minor conditions for investments:
 - Packages: pandas, numpy, matplotlib, seaborn
 
 # Data Cleaning
-## After reading the data, I needed to clean it up so that it was usable for our data analysis. I made the following changes and created the following variables:
-- Checked whether we have missing data for various cloumns.
-- Since,many columns had 33%,65% and even 100% missing values,I deleted those columns as they played no part in deciding the defaulting customers. 
-- Extracted the numeric part from the variable employment length.Also,deleted the missing values from the same column. 
-- Now, there are broadly three types of variablesin our dataset - 1. those which are related to the applicant (demographic variables such as age, occupation, employment details etc.), 2. loan characteristics (amount of loan, interest rate, purpose of loan etc.) and 3. Customer behaviour variables (those which are generated after the loan is approved such as delinquent 2 years, revolving balance, next payment date etc.).I decided to drop the customer behaviour variables as they are not available at the time of loan application, and thus they cannot be used as predictors for credit approval.
-- Also, we will not be able to use the variables zip code, address, state etc. The variable 'title' is derived from the variable 'purpose'.Thus,I got rid of all these variables as well
-- Converted loan_status to integer type in order to get the total number of customers who defaulted and who didn't.
-- Finally,the remaining columns used for EDA are
+## After reading the data, I needed to clean it up so that it was usable for our data analysis. After cleaning the data and handling missing values,the following features are used to determine the type of investment to be made and the best countries for investing:
 
- 1   id                         
- 2   member_id                  
- 3   loan_amnt                 
- 4   funded_amnt                   
- 5   funded_amnt_inv             
- 6   term                        
- 7   int_rate                    
- 8   installment                 
- 9   grade                        
- 10  sub_grade                   
- 11  emp_title                    
- 12  emp_length                  
- 13  home_ownership               
- 14  annual_inc                  
- 15  verification_status          
- 16  issue_d                      
- 17  loan_status               
- 18  pymnt_plan                                            
- 19  purpose                     
- 20  dti                        
- 21  initial_list_status          
- 22  collections_12_mths_ex_med  
- 23  policy_code                   
- 24  acc_now_delinq              
- 25  chargeoff_within_12_mths    
- 26  delinq_amnt                  
- 27  pub_rec_bankruptcies        
- 28  tax_liens 
+ 1   country_code             
+ 2   funded_at                
+ 3   funding_round_permalink  
+ 4   funding_round_type       
+ 5   main_category            
+ 6   name                     
+ 7   permalink                
+ 8   raised_amount_usd        
+ 9  status                   
+ 10   sector                    
 
 # Observations
 After cleaning the data,I started with EDA. These are some of the outcomes of EDA and the important results 
@@ -69,4 +43,14 @@ After cleaning the data,I started with EDA. These are some of the outcomes of ED
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Top_three_countries_for_investment.png "Top_three_countries_for_investment")
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Amount_invested.png "Amount_invested")
 
+# Results
 
+- The company should make a venture investment between 5 to 15 miilion USD.
+- Thus, the top country in terms of the number of investments (and the total amount invested) is USA. 
+- The sectors 'Others', 'Social, Finance, Analytics and Advertising' and 'Cleantech/Semiconductors' are the most heavily invested ones.
+
+In case we don't want to consider 'Others' as a sector, 'News, Search and Messaging' is the next best sector
+
+# Project Conclusion
+
+The company should invest in one of these top three countries: USA,Great Britain and India. The type of investment should be venture and the major sectors for investment should be 'Others', 'Social, Finance, Analytics and Advertising' and 'Cleantech/Semiconductors'.
