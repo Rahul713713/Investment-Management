@@ -1,4 +1,4 @@
-# Investment-Management : Project Overview
+# Investment Management : Project Overview
 ![investment_management](https://github.com/Rahul713713/Investment-Management/blob/master/Investment_Management.jpg "Investment Management")
 - Created multiple charts,graphs,boxplots,etc. in order to understand the data and where the company should invest in order to avoid risks.
 - Worked with 3 different datasets by merging them together.
