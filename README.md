@@ -1,9 +1,9 @@
 # Investment-Management : Project Overview
-
-- Created multiple charts,graphs,boxplots,etc. in order to understand the data and where the company shuould invest in order to avoid risks.
+![investment_management](https://github.com/Rahul713713/Investment-Management/blob/master/Investment_Management.jpg "Investment Management")
+- Created multiple charts,graphs,boxplots,etc. in order to understand the data and where the company should invest in order to avoid risks.
 - Worked with 3 different datasets by merging them together.
 - Cleaned the data in each datset and checked for missing values so that they can be merged together.
-- Performed data analysis on the different datasets keeping in mind the two constraints provided by the compnay.
+- Performed data analysis on the different datasets keeping in mind the two constraints provided by the company.
 
 # Problem Statement
 
