@@ -43,7 +43,7 @@ After cleaning the data,I started with EDA. These are some of the outcomes of ED
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Top_three_countries_for_investment.png "Top_three_countries_for_investment")
 ![loan_status vs term](https://github.com/Rahul713713/Investment-Management/blob/master/Amount_invested.png "Amount_invested")
 
-# Results
+# Result
 
 - The company should make a venture type investment.
 - The top country in terms of the number of investments (and the total amount invested) is USA. 
